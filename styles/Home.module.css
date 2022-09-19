@@ -21,11 +21,14 @@
 }
 
 .animation-container {
-  /* transform: scale(.6); */
-  /* border: 2px solid green; */
+  transform: scale(.9);
+  border: 1px solid green;
 }
 
 
+@media (max-width: 1350px) {
+
+}
 
 /* @media (max-width: 600px) {
   .grid {

@@ -1,7 +1,5 @@
 import React from "react";
 
-import styles from "./Animation.module.css";
-
 const Animation = () => {
   return (
     <div className="piggy-wrapper">

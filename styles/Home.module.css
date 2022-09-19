@@ -20,6 +20,11 @@
   letter-spacing: .75px;
 }
 
+.animation-container {
+  /* transform: scale(.6); */
+  /* border: 2px solid green; */
+}
+
 
 
 /* @media (max-width: 600px) {

@@ -3,6 +3,8 @@ import Head from "next/head";
 // import Image from 'next/image'
 import styles from "../styles/Home.module.css";
 
+import Animation from "../components/Animation";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,6 +15,10 @@ export default function Home() {
       </Head>
 
       <h1 className={styles["top-text"]}>SOMETHING'S COMING</h1>
+
+      <div className={styles["animation-container"]}>
+        <Animation />
+      </div>
 
       <h4 className={styles["bottom-text"]}>MONEYANDOTHERTHINGS.COM</h4>
     </div>

@@ -75,15 +75,8 @@
   }
 }
 
-/* Was 28px */
-/* @media (max-height: 500px) {
-  .bottom_text_container { height: 40%; }
-  .bottom_text {
-    font-size: 22px
-  }
-} */
 
-@media (orientation: landscape) {
+@media (orientation: landscape ) and (max-height: 500px) {
   .animation_container {
     transform: scale(0.5);
     height: 50%;
